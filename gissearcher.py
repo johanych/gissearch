@@ -24,7 +24,7 @@ def get_urls(site, inurl):
            tags = soup.find_all('div', class_='r')
            for tag in tags:
                print(tag.a['href'])
-#               print(tag.a['href'].split('/')[3])
+#               print(tag.a['href'].split('/')[3]) #en caso de que solo se requiera un parametro de la url resultado
 
 if __name__ == '__main__':
-       get_urls("servicio.gis.com", "/rest/")
+       get_urls("primer parametro del dork o site", "segundo parametro o inurl")
