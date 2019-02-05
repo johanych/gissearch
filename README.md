@@ -3,7 +3,7 @@ Simple script to make a google dork search bypassing restrictions like traffic p
 
 # Usage:
 
-python gissearch.py [site] [inurl] 
+$ python gissearch.py [site] [inurl] 
 
 Note:
 You can change the query variable to use another dork.
