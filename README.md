@@ -1,8 +1,8 @@
 # gissearch
-Script para buscar en google a partir de un dork 
+Simple script to make a google dork search bypassing restrictions like traffic pattern, too rapid searches with "smart" queries and the behavior of the client.
 
 Usage:
 
 python gissearch.py [site] [inurl] 
 
-You can modify
+You can change the query variable to use another dork.
